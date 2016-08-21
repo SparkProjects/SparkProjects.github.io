@@ -1,0 +1,118 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  margin: 0;
+}
+
+.portada {
+  width: 100%;
+  color: #FFFFFF;
+  height: 100vh;
+
+  /*Opciones del fondo*/
+  background-image: url(../img/lux.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+
+}
+
+.textop {
+  width: 100%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  text-align: center;
+  font-size: 3.5em;
+  font-weight: regular;
+  text-transform: uppercase;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  animation: fadein 1s;
+}
+
+.azul {
+  width: 100%;
+  background: #191C26;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  display: flex;
+  #flex-wrap: wrap;
+}
+
+.azul img{
+  border: none;
+  width: 33.33%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.azult{
+  width: 100%;
+  background: #191C26;
+  padding-top: 1em;
+}
+
+.azult h1{
+  text-align: center;
+  color: #52d0bd; 
+}
+
+.celeste {
+  background: #52D0BD;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.celeste h1 {
+  text-align: center;
+}
+
+.patrocinadores {
+  width: 100%;
+  display: flex;
+}
+
+figure{
+  margin: auto;
+  overflow: hidden;
+}
+
+.patrocinadores img{
+  border: none;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+}
+
+figure h1 {
+  text-align: center;
+  color: #52d0bd
+}
+
+figure p {
+  text-align: center;
+  color: #FEFEFE
+}
+
+.azult img{
+  display: block;
+  width: 35%;
+  height: auto;
+  margin: auto;
+  padding-bottom: 1em;
+}
+
+@keyframes fadein{
+  from {opacity: 0;}
+  to   {opacity: 1;}
+}
+
+#revisar https://www.sitepoint.com/using-modern-css-to-build-a-responsive-image-grid/ para lo del tema de las imagenes y http://codepen.io/SitePoint/pen/bEvVqP para el ejemplo
