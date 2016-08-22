@@ -79,6 +79,33 @@ body{
   display: flex;
 }
 
+
+.concursos{/*nuevo*/
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  display: flex;
+  #flex-wrap: wrap;
+}
+
+.concursos h1{
+  color: black;
+}
+
+.concursos p{
+  font: justify;
+  color: black;
+  width: 400px;
+}
+
+.concursos img{/*nuevo*/
+  border: none;
+  width: 33.33%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
 figure{
   margin: auto;
   overflow: hidden;
@@ -91,6 +118,23 @@ figure{
   display: block;
   margin: 0;
 }
+
+.proyectos{
+  border: none;
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.proyectos p{
+  text-align: justify;
+  color:#52D0BD;
+}
+
+
+
+
 
 figure h1 {
   text-align: center;
