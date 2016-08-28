@@ -57,6 +57,7 @@ body{
   width: 100%;
   background: #191C26;
   padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .azult h1{
@@ -79,7 +80,6 @@ body{
   display: flex;
 }
 
-
 .concursos{/*nuevo*/
   width: 100%;
   padding-top: 1em;
@@ -96,11 +96,12 @@ body{
   font: justify;
   color: black;
   width: 400px;
+  margin: auto;
 }
 
 .concursos img{/*nuevo*/
   border: none;
-  width: 33.33%;
+  width: 45%;
   height: auto;
   display: block;
   margin: auto;
@@ -113,10 +114,13 @@ figure{
 
 .patrocinadores img{
   border: none;
-  max-width: 100%;
-  height: auto;
+  max-width: 95%;
   display: block;
-  margin: 0;
+  margin: auto;
+}
+
+.patrocinadores figure {
+  width: 25%;  
 }
 
 .proyectos{
@@ -125,15 +129,13 @@ figure{
   height: auto;
   display: block;
   margin: auto;
+  padding-bottom: 2em;
 }
 
 .proyectos p{
   text-align: justify;
   color:#52D0BD;
 }
-
-
-
 
 
 figure h1 {
