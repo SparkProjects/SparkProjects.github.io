@@ -10,7 +10,7 @@ body{
   height: 100vh;
 
   /*Opciones del fondo*/
-  background-image: url(../img/lux.jpg);
+  background-image: url(../img/fondo.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -32,7 +32,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   animation: fadein 1s;
 }
 
@@ -62,7 +62,7 @@ body{
 
 .azult h1{
   text-align: center;
-  color: #52d0bd; 
+  color: #52d0bd;
 }
 
 .celeste {
@@ -134,7 +134,7 @@ figure{
 }
 
 .patrocinadores figure {
-  width: 25%;  
+  width: 25%;
   #overflow: hidden;
 }
 
