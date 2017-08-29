@@ -1,5 +1,5 @@
 .hero-body, .hero-foot{
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .header-image {
@@ -9,4 +9,12 @@
     background-attachment: fixed;
     background-size: cover;
     background-color: #999;
+}
+
+.footer a:hover{
+  color: hsl(247, 71%, 53%);
+}
+
+.footer a{
+  color: hsl(217, 71%, 53%);
 }
