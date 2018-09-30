@@ -1,20 +1,74 @@
-.hero-body, .hero-foot{
+.hero {
+  background: black url('../img/fondo2.jpg') center / cover;
+}
+
+.hero-head, .hero-body, .hero-foot{
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-.header-image {
-    background-image: url('../img/fondo2.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #999;
-}
-
-.footer a:hover{
-  color: hsl(247, 71%, 53%);
+.footer{
+  padding: 1.5rem 1.5rem 3rem;
 }
 
 .footer a{
-  color: hsl(217, 71%, 53%);
+  color: #245ca5;
+}
+
+.footer a:hover{
+  color: #4e8098;
+}
+
+.center, .center-column, .top, .right, .bottom, .left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.center-column {
+    flex-direction: column;
+}
+
+.top    { align-items:     flex-start; }
+.right  { justify-content: flex-end;   }
+.bottom { align-items:     flex-end;   }
+.left   { justify-content: flex-start; }
+
+
+body {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
 }
